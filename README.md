@@ -1,5 +1,5 @@
 ## Summary
-`vagrant php7 symfony` is a Debian 8 virtual box, which is preconfigured for testing PHP5, PHP7 Symfony apps and developing extensions across many versions of PHP. It contains many essential development packages, which are common used 
+`vagrant php7 symfony3` is a Debian 8 virtual box, which is preconfigured for testing PHP5, PHP7, Symfony 3 apps and developing extensions across many versions of PHP. It contains many essential development packages, which are common used 
 in Symfony project.
 
 
@@ -12,9 +12,9 @@ If you are on Windows use the [Manual Install](#manual-install) instructions or 
 Otherwise for UNIX and UNIX-like users just clone and go. Like this:
 
 ```
-$ git clone https://github.com/rlerdorf/vagrant-php7-symfony2.git
+$ git clone https://github.com/rlerdorf/vagrant-php7-symfony3.git
 ...
-$ cd vagrant-php7-symfony2
+$ cd vagrant-php7-symfony3
 ...
 $ vagrant up
 ...
