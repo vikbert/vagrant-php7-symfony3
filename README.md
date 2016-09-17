@@ -50,4 +50,4 @@ $ sudo ./create-sites-symfony.sh php7symfony
 
 Check the URL `http://php7symfony` in the browser
  
-![Symfony 3 standard project](assets/php7symfony.png?raw=true "symfony 3 standard project")
+![Symfony 3 standard project](assets/php7symfony-3.png?raw=true "symfony 3 standard project")
