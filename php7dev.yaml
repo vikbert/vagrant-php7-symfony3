@@ -1,0 +1,26 @@
+---
+ip: "192.168.7.7"  ## reserved private IP ranges 192.168.0.0 - 192.168.255.255
+memory: 2048
+cpus: 2
+
+authorize:
+    - ~/.ssh/id_rsa.pub
+    - ~/.ssh/id_dsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+    - ~/.ssh/id_dsa
+
+networking:
+    - public: true
+
+folders:
+    - map: sites
+      to: /var/www/sites
+
+sites:
+    - hostname: example-site
+      to: /home/vagrant/www/example-site
+
+databases:
+    - example_database
