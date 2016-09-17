@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export LC_ALL="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8" && /vagrant/makephp 7 && /vagrant/newphp 70
 
 cd /vagrant/scripts/
 
