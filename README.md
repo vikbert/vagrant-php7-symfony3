@@ -1,27 +1,24 @@
 ## Summary
-`vagrant php7 symfony3` is a Debian 8 virtual box, which is preconfigured for testing PHP5, PHP7, Symfony 3 apps and developing extensions across many versions of PHP. It contains many essential development packages, which are common used 
+`Vagrant php7 symfony3` is a Debian 8 virtual box, which is preconfigured for testing PHP7, Symfony 3 apps and developing extensions across many versions of PHP. It contains many essential development packages, which are common used 
 in Symfony project.
 
 
-## Installation
+## Before Installation
 
 Make sure that you are at least at Vagrant version 1.7.x and virtualbox 5.x
 
 If you are on Windows use the [Manual Install](#manual-install) instructions or use git-bash.
 
-Otherwise for UNIX and UNIX-like users just clone and go. Like this:
-
+## 1. Start Vagrant Box
 ```
-$ git clone https://github.com/rlerdorf/vagrant-php7-symfony3.git
-...
+$ git clone https://github.com/vikbert/vagrant-php7-symfony3.git
 $ cd vagrant-php7-symfony3
-...
 $ vagrant up
-...
 $ vagrant ssh
 ```
 
-Add this to your hosts file on the hostmachine:
+## 2. Config the `/etc/hosts`
+Add this to your hosts file on the hostmachine, for example on my MacbookPro machine
 
 ```
 192.168.7.7 php7default
@@ -32,7 +29,7 @@ To view the demo application, go to `http://php7default` in the browser.g
 ![phpinfo page](assets/php7default.png?raw=true "phpinfo page")
 
 
-## Create the first Symfony standard App
+## 3. Create new Symfony Websites
 
 added Symfony app name `php7symfony` as server alias to `/etc/hosts` on the host machine
 
